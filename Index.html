@@ -1,0 +1,127 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Yasin Sharif Mdosi's Home Page</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <header>
+        <h1>Yasin Sharif Mdosi</h1>
+    </header>
+    <nav>
+        <ul>
+            <li><a href="#personal-info">Personal Info</a></li>
+            <li><a href="#hobbies">Hobbies</a></li>
+            <li><a href="#favorite-links">Favorite Links</a></li>
+        </ul>
+    </nav>
+    <section id="personal-info">
+        <h2>Personal Info</h2>
+        <p><strong>My name is Yasin Sharif Mdosi</strong> and I am from <em>Zanzibar</em>. I am studying at the Open University of Tanzania, pursuing a Bachelor of Science in ICT.</p>
+        <p> <strong>Movie Quotes</strong></p>
+        <p><em>"If I had known the world was ending, I would’ve brought better books."</em></p> 
+        <p><em> "We've all done the worst kinds of things just to stay alive. But we can still come back. We're not too far gone. We get to come back. I know...we all can change."</em></p>
+        <img class="medium-image" src="images/picure1 (1).jpg" alt="A description of the local image">
+        <img class="medium-image" src="https://www.gettyimages.com/photos/elon-musk-image.jpg" alt="A picture showing world famous billionaire">
+    </section>
+    <section id="hobbies">
+        <h2>Hobbies</h2>
+        <p>Some of my hobbies include:</p>
+        <ul>
+            <li>Playing games, especially PUBG and football</li>
+            <li>Watching movies</li>
+        </ul>
+    </section>
+    <section id="favorite-links">
+        <h2>Favorite Links</h2>
+        <p>Here are some of my favorite links:</p>
+        <ul>
+            <li><a href="https://www.out.ac.tz">Open University of Tanzania</a></li>
+            <li><a href="https://www.out.ac.tz/ict-department">Open University ICT Department</a></li>
+            <li><a href="https://www.youtube.com">Go to YouTube</a></li>
+            <li><a href="https://www.forex.com">Learn Forex</a></li>
+            <li><a href="https://www.spotify.com">Spotify</a></li>
+        </ul>
+    </section>
+    <section id="info-table">
+        <h2>Top Ten Favorite CDs</h2>
+        <table>
+            <tr>
+                <th>CD Title</th>
+                <th>Description</th>
+            </tr>
+            <tr>
+                <td>Thriller - Michael Jackson</td>
+                <td>One of the best-selling albums of all time, featuring hits like "Billie Jean" and "Beat It".</td>
+            </tr>
+            <tr>
+                <td>The Dark Side of the Moon - Pink Floyd</td>
+                <td>A progressive rock masterpiece known for its complex themes and innovative sound.</td>
+            </tr>
+            <tr>
+                <td>Abbey Road - The Beatles</td>
+                <td>The iconic album by The Beatles with classics such as "Come Together" and "Here Comes the Sun".</td>
+            </tr>
+            <tr>
+                <td>Back in Black - AC/DC</td>
+                <td>A hard rock album featuring hits like "Back in Black" and "You Shook Me All Night Long".</td>
+            </tr>
+            <tr>
+                <td>Rumours - Fleetwood Mac</td>
+                <td>Known for its beautiful harmonies and emotional lyrics, featuring "Go Your Own Way" and "Dreams".</td>
+            </tr>
+            <tr>
+                <td>Hotel California - Eagles</td>
+                <td>Famous for its title track "Hotel California" and other hits like "New Kid in Town".</td>
+            </tr>
+            <tr>
+                <td>21 - Adele</td>
+                <td>A soulful album by Adele featuring powerful ballads like "Rolling in the Deep" and "Someone Like You".</td>
+            </tr>
+            <tr>
+                <td>1989 - Taylor Swift</td>
+                <td>A pop album featuring hits like "Shake It Off" and "Blank Space".</td>
+            </tr>
+            <tr>
+                <td>Nevermind - Nirvana</td>
+                <td>The groundbreaking grunge album featuring "Smells Like Teen Spirit" and "Come As You Are".</td>
+            </tr>
+            <tr>
+                <td>The Eminem Show - Eminem</td>
+                <td>A hip-hop album with hits like "Without Me" and "Cleanin' Out My Closet".</td>
+            </tr>
+        </table>
+    </section>
+    <section id="contact-form">
+        <h2>Contact Form</h2>
+        <form action="process-form.php" method="post">
+            <label for="name">Name:</label>
+            <input type="text" id="name" name="name" required>
+            <label for="email">Email:</label>
+            <input type="email" id="email" name="email" required>
+            <label for="message">Message:</label>
+            <textarea id="message" name="message" required></textarea>
+            <input type="submit" value="Submit">
+        </form>
+    </section>
+    <section id="login-form">
+        <h2>Login</h2>
+        <form action="retrieve-data.php" method="post">
+            <label for="username">Username:</label>
+            <input type="text" id="username" name="username" required>
+            <label for="password">Password:</label>
+            <input type="password" id="password" name="password" required>
+            <input type="submit" value="Login">
+        </form>
+    </section>
+    <footer>
+        <p>Page location: Tanzania</p>
+        <p>Last modified: <span id="last-modified"></span>today</p>
+    </footer>
+    <script src="scripts.js"></script>
+</body>
+</html>
+
+
+
